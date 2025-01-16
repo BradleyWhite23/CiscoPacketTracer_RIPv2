@@ -1,0 +1,16 @@
+France_Router has three connected networks:
+192.168.1.0
+150.1.1.0
+200.1.1.0
+
+France_Router
+7.	Click France_Router>Config>RIP
+8.	Click CLI to launch the IOS Command Line Interface
+9.	Type the following syntax to configure RIPv2 on the router as the routing protocol, and advertise the appropriate connected networks:
+Router(config-router)# version 2
+Router(config-router)# network 200.1.1.0
+Router(config-router)# network 192.168.1.0
+Router(config-router)# network 150.1.1.0
+	Router(config-router)# end
+Router#
+Router#
