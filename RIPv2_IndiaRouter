@@ -1,0 +1,23 @@
+India_Router connected networks:
+172.16.1.0
+100.1.1.0
+150.1.1.0
+
+India_Router
+1.	Click India_Router>Config>RIP
+
+Note: You can see in the Equivalent IOS Commands window, the GUI has already entered the first three rows of syntax:
+2.	Click CLI to launch the IOS Command Line Interface
+3.	Each time you press the <Enter> key, the same prompt appears:
+Router(config-router)#
+Router(config-router)#
+4.	Type the following syntax to configure RIPv2 on the router as the routing protocol, and advertise the appropriate connected networks:
+
+Router(config-router)# version 2
+Router(config-router)# network 172.16.1.0
+Router(config-router)# network 100.1.1.0
+5.	Router(config-router)# network 150.1.1.0
+	Router(config-router)# end
+Router#
+Router#
+6.	Close the CLI window
