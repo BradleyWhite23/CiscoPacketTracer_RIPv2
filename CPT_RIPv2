@@ -15,5 +15,18 @@ UK_Router has three connected networks:
 10.1.1.0
 100.1.1.0
 200.1.1.0
+---------------------------------------------
+Verify Configuration or Check Configuration 
 
+Use the Show IP Route command to verify the configuration:
 
+1.	Click India_Router0>CLI
+2.	Type the following syntax to view your configuration:
+Router> enable	
+Router# show ip route
+3.	Your result should look similar to configuration: 
+Note: The addresses will be different from your output
+
+Alterantive 
+
+Use   PING   in command prompt
